@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  spark:
+    image: jupyter/pyspark-notebook
+    container_name: pyspark_container
+    ports:
+      - "4040:4040"  # Spark UI
+      - "8888:8888"  # Jupyter Notebook
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
