@@ -1,6 +1,6 @@
 # Starting Apache Spark
 
-by @jasonmag
+by [@jasonmag](https://github.com/jasonmag)
 
 ## Using docker
 
